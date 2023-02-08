@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Table heading</caption>
+        <thead style="color:red">
+            <tr><th colspan="5">colspan</th></tr>
+            <tr>
+                <th id="purchase">Purchase</th>
+                <th id="location">Location</th>
+                <th id="date">Date</th>
+                <th id="evaluation">Evaluation</th>
+                <th id="cost">Cost (€)</th>
+            </tr>
+        </thead>
+        <tbody style="color:GREEN">
+            <tr>
+                <th id="haircut">Haircut</th>
+                <td headers="location haircut">Hairdresser</td>
+                <td headers="date haircut">12/09</td>
+                <td headers="evaluation haircut">Great idea</td>
+                <td headers="cost haircut">30</td>
+                <td rowspan="2">rowspan</td>
+            </tr>
+            <tr>
+                <th id="haircut">Phone</th>
+                <td headers="location haircut">kolkata</td>
+                <td headers="date haircut">12/09</td>
+                <td headers="evaluation haircut">Great idea</td>
+                <td headers="cost haircut">200</td>
+            </tr>
+        </tbody>
+        <tfoot style="color:red">
+            <tr>
+                <th id="purchase">Purchase</th>
+                <th id="location">Location</th>
+                <th id="date">Date</th>
+                <th id="evaluation">Evaluation</th>
+                <th id="cost">Cost (€)</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
